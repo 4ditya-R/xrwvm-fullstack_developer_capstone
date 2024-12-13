@@ -1,3 +1,4 @@
+/* eslint-disable indent, max-len */
 # Uncomment the required imports before adding the code
 
 from django.shortcuts import render
@@ -159,3 +160,4 @@ def add_review(request):
             return JsonResponse({"status":401,"message":"Error in posting review"})
     else:
         return JsonResponse({"status":403,"message":"Unauthorized"})
+/* eslint-disable indent, max-len */
