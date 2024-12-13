@@ -1,4 +1,4 @@
-# Uncomment the following imports before adding the Model code
+/* eslint-disable indent, max-len */
 
 from django.db import models
 from django.utils.timezone import now
@@ -33,3 +33,4 @@ class CarModel(models.Model):
 
     def __str__(self):
         return self.name  # Return the name as the string representation
+/* eslint-disable indent, max-len */
