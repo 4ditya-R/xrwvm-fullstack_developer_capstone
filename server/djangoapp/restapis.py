@@ -1,5 +1,3 @@
-# Uncomment the imports below before you add the function code
-/* eslint-disable indent, max-len */
 import requests
 import os
 from dotenv import load_dotenv
@@ -47,4 +45,3 @@ def post_review(data_dict):
         return response.json()
     except:
         print("Network exception occurred")
-/* eslint-disable indent, max-len */
